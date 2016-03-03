@@ -61,6 +61,8 @@
 #include "Ifpack_IlukGraph.h"
 #include "Ifpack_CrsRiluk.h"
 
+using namespace std;
+
 void BiCGSTAB(Epetra_CrsMatrix &A, Epetra_Vector &x, Epetra_Vector &b,
 	      Ifpack_CrsRiluk *M,
 	      int Maxiter, double Tolerance,
